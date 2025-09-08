@@ -1,15 +1,14 @@
 public class Main {
     public static void main(String[] args) {
-        // [ KIOSK ]
-        // Instantiate a Kiosk object
+        // Instantiate a 'Kiosk' object
         Kiosk kiosk1 = new Kiosk("Kiosk #1", 100, 2);
 
-        // Display current values`
+        // Display current values
         System.out.println("BEFORE");
         System.out.println("Item Name: " + kiosk1.getItemName());
         System.out.println("Price: $" + kiosk1.getPrice());
         System.out.println("Quantity: " + kiosk1.getQuantity());
-
+   
         // Simulate at least one purchase transaction
         kiosk1.purchaseItem(2);
 
@@ -22,16 +21,5 @@ public class Main {
         System.out.println("Item Name: " + kiosk1.getItemName());
         System.out.println("Price: $" + kiosk1.getPrice());
         System.out.println("Quantity: " + kiosk1.getQuantity());
-
-        // [ COLOR GAME ]
-        // // Create a ColorGame object
-        // ColorGame color1 = new ColorGame();
-        
-        // // Set the player's name and chosen color using setters
-        // color1.setPlayerName("Adrian");
-        // color1.setChosenColor("Red");
-
-        // // Call 'playGame()' and display the result
-        // color1.playGame();
     }
 }

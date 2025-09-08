@@ -111,7 +111,7 @@ public class StudentInfo {
     }
 
     public void displayStudentInformation() {
-        System.out.println("[   STUDENT INFORMATION ]");
+        System.out.println("[ STUDENT INFORMATION ]");
         System.out.printf("Name: %s\n", getName());
         System.out.printf("Age: %d\n", getAge());
         System.out.printf("Grade: %d\n", getGrade());

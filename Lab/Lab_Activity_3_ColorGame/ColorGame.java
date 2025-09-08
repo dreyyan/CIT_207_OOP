@@ -1,27 +1,19 @@
-
 import java.util.Random;
-
 public class ColorGame {
     // Attributes
     private String playerName;
     private String chosenColor;
     private String resultColor;
 
-    // Getters
+    // Getters & Setters
     public String getPlayerName() { return this.playerName; }
     public String getChosenColor() { return this.chosenColor; }
-    public String getResultcolor() { return this.resultColor; }
+    public String getResultColor() { return this.resultColor; }
 
-    // Setters
     public void setPlayerName(String playerName) { this.playerName = playerName; }
-    public void setChosenColor(String chosenColor) {
-        if (!chosenColor.equals("Red") && !chosenColor.equals("Green") && !chosenColor.equals("Blue") && !chosenColor.equals("Yellow"))
-            System.out.println("ERROR: Invalid color");
-        else
-            this.chosenColor = chosenColor;
-    }
+    public void setChosenColor(String chosenColor) { this.chosenColor = chosenColor; }
     public void setResultColor(String resultColor) { this.resultColor = resultColor; }
-
+    
     // Default Constructor
     public ColorGame() {}
 
@@ -42,27 +34,25 @@ public class ColorGame {
         // Randomly picks a result color
         int randomNumber = num.nextInt(4);
 
+        // Convert/map random number to a specific color
         randomColor = switch (randomNumber) {
-            case 0 -> "Red";
-            case 1 -> "Green";
-            case 2 -> "Blue";
-            case 3 -> "Yellow";
-            default -> "Red"; // Set default color to 'Red'
-        }
+            case 1 -> "Red";
+            case 2 -> "Green";
+            case 3 -> "Blue";
+            case 4 -> "Yellow";
+            default -> "Red"; // Set default color
+        };
 
+        // Display choices
         System.out.println("Chosen Color: " + getChosenColor());
         System.out.println("Random Color: " + randomColor);
 
-        // Compares it with chosen color
-        if (getChosenColor().equals(randomColor)) {
-            playerWon = true;
-        }
-
+        // Compares it /w chosen color
+        if (getChosenColor().equals(randomColor)) { playerWon = true; }
+        
         // Prints whether the player won or lost
-        if (playerWon) {
-            System.out.println("Congratulations! You won!");
-        } else {
-            System.out.println("Sorry, you lost...");
-        }
+        if (playerWon) System.out.println("Congratulations, you won!");
+        else System.out.println("Sorry, you lost...");
     }
+    
 }
