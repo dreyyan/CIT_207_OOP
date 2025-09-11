@@ -1,4 +1,4 @@
-package Lab_Activity_4_Lotto;
+package Lab.Assignment_6_LottoTicket;
 public class LottoTicket {
     // Attributes
     private String ticketNumber;

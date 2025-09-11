@@ -1,3 +1,4 @@
+package Lab.Assignment_5_2_ColorGame;
 import java.util.Random;
 public class ColorGame {
     // Attributes

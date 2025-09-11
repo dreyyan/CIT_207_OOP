@@ -1,3 +1,4 @@
+package Lab.Assignment_5_1_Kiosk;
 public class Kiosk {
     // Attributes
     private String itemName;

@@ -1,3 +1,4 @@
+package Lab.Assignment_4_Car;
 public class Car {
     // ATTRIBUTES
     private String brand;

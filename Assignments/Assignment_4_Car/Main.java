@@ -1,3 +1,4 @@
+package Lab.Assignment_4_Car;
 public class Main {
     public static void main(String[] args) {
         // Create a 'Car' object

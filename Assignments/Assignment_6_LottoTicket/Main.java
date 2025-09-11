@@ -1,4 +1,4 @@
-package Lab_Activity_4_Lotto;
+package Lab.Assignment_6_LottoTicket;
 public class Main {
     public static void main(String[] args) {
         // Create one 'Player' and one 'LottoTicket'

@@ -1,3 +1,4 @@
+package Lab.Assignment_5_2_ColorGame;
 public class Main {
     public static void main(String[] args) {
         // Create a 'ColorGame' instance

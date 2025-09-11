@@ -1,3 +1,4 @@
+package Lab.Assignment_5_1_Kiosk;
 public class Main {
     public static void main(String[] args) {
         // Instantiate a 'Kiosk' object
