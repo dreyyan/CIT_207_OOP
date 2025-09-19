@@ -1,10 +1,7 @@
-import java.util.List;
-import java.util.Scanner;
-
-import Utilities.Utility;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
+import java.util.List;
+import java.util.Scanner;
 
 public class Theatre {
     Scanner scanner = new Scanner(System.in);

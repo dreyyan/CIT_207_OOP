@@ -1,7 +1,4 @@
-package Utilities;
-
 import java.util.Scanner;
-import Utilities.Utility;
 
 public class Utility {
     static Scanner scanner = new Scanner(System.in);
