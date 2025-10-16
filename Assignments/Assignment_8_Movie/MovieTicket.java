@@ -1,5 +1,3 @@
-import Utilities.Utility;
-
 public class MovieTicket {
     // Attributes
     private String seatNumber;
