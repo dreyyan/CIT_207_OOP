@@ -1,3 +1,4 @@
+// Animal (Base Class)
 class Animal {
     protected String name;
 
@@ -12,6 +13,7 @@ class Animal {
     public void makeSound() {}
 }
 
+// Dog < Animal
 class Dog extends Animal {
     public Dog(String name) { super(name); }
 
@@ -21,6 +23,7 @@ class Dog extends Animal {
     }
 }
 
+// Cat < Animal
 class Cat extends Animal {
     public Cat(String name) { super(name); }
 
@@ -30,6 +33,7 @@ class Cat extends Animal {
     }
 }
 
+// Cow < Animal
 class Cow extends Animal {
     public Cow(String name) { super(name); }
 
